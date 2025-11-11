@@ -1,0 +1,48 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(234, 245, 255);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+     
+    }
+
+    .thumb {
+      background-color: white;
+      width: 400px;
+      height: 400px;
+      margin: 100px auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 28px;
+      transition: all 0.4s ease;
+    }
+
+     .link-first-page {
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 8px;
+     font-size: 18px;
+     text-decoration: none;
+     color: #ffffff;
+     background-color: #2196f3;
+
+ }
+
+ .link-first-page:hover {
+     background-color: #2179f3;
+ }
